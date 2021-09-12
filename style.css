@@ -138,3 +138,46 @@ img{
     background-color: hsl(276, 100%, 51%);
    
 }
+
+@media (max-width:1440px){
+   /*SIZING for mobile  */
+    .container{
+       flex-direction: column-reverse;
+       margin:auto 50%;
+       height: 900px;
+   }
+   .wrapper, .overlay, img{
+    width: 375px;
+    padding:0;
+   }
+
+   .stats{
+       flex-direction: column;
+       margin: 2rem auto 2rem;
+       text-align: center;
+   }
+
+   /* Border radius */
+   img, .overlay{
+       border-radius: 1rem 1rem 0 0;
+   }
+   .wrapper{
+       border-radius: 0 0 1rem 1rem;
+        padding: 0 1.5rem;
+    }
+
+   /* text look good */
+   p, h1{
+       margin: 2rem 1rem 10px;
+       text-align: center;
+   }
+
+   h1{
+       font-size: 2.5rem;
+   }
+
+   ul{
+       margin: .75rem 0;
+   }
+
+}
