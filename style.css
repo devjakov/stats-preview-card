@@ -1,0 +1,140 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Very dark blue (main background): hsl(233, 47%, 7%)
+- Dark desaturated blue (card background): hsl(244, 38%, 16%)
+- Soft violet (accent): hsl(277, 64%, 61%)
+
+### Neutral
+
+- White (main heading, stats): hsl(0, 0%, 100%)
+- Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
+- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/* Universal tags and stuff */
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter";
+    background-color: hsl(233, 47%, 7%) ;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 100vh;
+}
+
+p, li:nth-child(2){
+    font-family: "Lexend Deca";
+}
+
+/* Making the card look */
+.wrapper{
+background-color: hsl(244, 38%, 16%);
+color: hsl(0, 0%, 100%);
+width: 700px;
+padding: 80px;
+}
+
+.test
+{
+    margin: auto;
+}
+
+span{
+ color:hsl(277, 64%, 61%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+width: 1440px;
+height: 580px;
+margin: auto;
+}
+
+.overlay{
+    display: flex;
+    width: 654px;
+}
+
+/* img{
+    aspect-ratio: 1.3625;
+} */
+
+/* Making the text look good */
+
+h1{
+    font-size: 2.8rem;
+    width: 90%;
+}
+
+h2{
+    font-size: 1.9rem;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+p{
+    font-size: 1.1rem;
+    width: 80%;
+    line-height: 2rem;
+    width: 90%;
+    margin: 40px 20px 90px 0;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+li:nth-child(2){
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    margin: .5rem 0;
+    letter-spacing: .1rem;
+}
+
+/* Adding color to img */
+img{
+    opacity: .5;
+}
+.overlay{
+   
+    background-color: hsl(276, 100%, 51%);
+   
+}
