@@ -139,12 +139,22 @@ img{
    
 }
 
+/* Border-radius */
+.overlay, img{
+    border-radius: 0 1.5rem 1.5rem 0;
+}
+.wrapper{
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+
+
+
 @media (max-width:1440px){
    /*SIZING for mobile  */
     .container{
        flex-direction: column-reverse;
-       margin:auto 50%;
-       height: 900px;
+       margin:5rem 50%;
+       height: fit-content;
    }
    .wrapper, .overlay, img{
     width: 375px;
