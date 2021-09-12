@@ -153,7 +153,7 @@ img{
    /*SIZING for mobile  */
     .container{
        flex-direction: column-reverse;
-       margin:5rem 50%;
+       margin:10vh 50%;
        height: fit-content;
    }
    .wrapper, .overlay, img{
